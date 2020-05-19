@@ -36,7 +36,7 @@ class Scatter extends React.Component{
         .attr("id", "tooltip")
         .style("border", "1px solid black")
         .style("padding", "10px 10px")
-        .style("margin", "20px 50px")
+        .style("margin", "0 20%")
 
         var years = data.map(function (item) {
             return item.Year;
